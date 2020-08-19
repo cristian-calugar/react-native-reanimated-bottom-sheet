@@ -11,8 +11,7 @@
     "lint": "eslint --ext .js,.ts,.tsx .",
     "typescript": "tsc --noEmit",
     "release": "release-it",
-    "prepare": "bob build",
-    "postinstall": "tsc --outDir ./build"
+    "prepare": "bob build"
   },
   "keywords": [
     "react-native",
